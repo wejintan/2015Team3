@@ -9,6 +9,7 @@ namespace TeamProject
     class Article
     {
         public string title;
+        public string author;
 
         static public int  five()
         {
