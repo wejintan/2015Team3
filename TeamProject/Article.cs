@@ -18,5 +18,9 @@ namespace TeamProject
         {
             return 0;
         }
+        static public string Hello()
+        {
+            return "Hello World!";
+        }
     }
 }
