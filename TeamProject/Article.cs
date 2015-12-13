@@ -8,6 +8,8 @@ namespace TeamProject
 {
     class Article
     {
+        public string title;
+
         static public int  five()
         {
             return 5;
