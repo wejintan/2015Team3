@@ -21,5 +21,11 @@ namespace TeamProject.Tests
         {
             Assert.That('A' + 1, Is.EqualTo('B'));
         }
+
+        [Test]
+        public void Test3()
+        {
+            Assert.That(0, Is.EqualTo(0));
+        }
     }
 }
