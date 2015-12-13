@@ -11,10 +11,13 @@ namespace TeamProject.Tests
     public class TestClass1
     {
         [Test]
-        public void Test1()
+        public void AddUser()
         {
-            Assert.That(1 + 1, Is.EqualTo(2));
-            //test
+            User new_user = new User();
+            Lists list = new Lists();
+            list.add(new_user);
+            Assert.That(list.number,Is.EqualTo(1));
+            
         }
     }
 }
