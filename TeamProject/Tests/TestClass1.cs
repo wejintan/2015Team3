@@ -16,5 +16,10 @@ namespace TeamProject.Tests
             Assert.That(1 + 1, Is.EqualTo(2));
             Assert.That(Article.five(), Is.EqualTo(5));
         }
+        [Test]
+        public void Test2()
+        {
+            Assert.That('A' + 1, Is.EqualTo('B'));
+        }
     }
 }
