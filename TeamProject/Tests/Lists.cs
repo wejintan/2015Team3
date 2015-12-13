@@ -7,7 +7,7 @@ namespace TeamProject.Tests
 {
     class Lists
     {
-
+        
         internal void add(User new_user)
         {
             throw new NotImplementedException();
