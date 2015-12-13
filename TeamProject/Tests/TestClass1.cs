@@ -17,8 +17,18 @@ namespace TeamProject.Tests
             Lists list = new Lists();
             list.add(new_user);
             Assert.That(list.number,Is.EqualTo(1));
-            
 
+        }
+        [Test]
+        public void Test2()
+        {
+            Assert.That('A' + 1, Is.EqualTo('B'));
+        }
+
+        [Test]
+        public void Test3()
+        {
+            Assert.That(0, Is.EqualTo(0));
         }
     }
 }
