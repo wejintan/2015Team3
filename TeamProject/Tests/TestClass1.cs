@@ -28,7 +28,7 @@ namespace TeamProject.Tests
         [Test]
         public void Test3()
         {
-            Assert.That(0, Is.EqualTo(0));
+            Assert.That(6, Is.EqualTo(6));
         }
     }
 }

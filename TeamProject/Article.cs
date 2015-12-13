@@ -14,9 +14,9 @@ namespace TeamProject
             return 5;
         }
 
-        static public int six()
+        static public int zero()
         {
-            return 6;
+            return 0;
         }
     }
 }
