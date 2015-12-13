@@ -67,6 +67,7 @@
     <Compile Include="Article.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests\06Test.cs" />
     <Compile Include="Tests\Lists.cs" />
     <Compile Include="Tests\TestClass1.cs" />
     <Compile Include="Tests\User.cs" />
